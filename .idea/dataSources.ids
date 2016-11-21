@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - MedhyC@91.134.133.249" uuid="802a6e45-e1ef-414d-af90-9f2732092af7">
+    <database-info product="MySQL" version="5.5.49-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="MedhyC"/>
+      <table id="2" parent="1" name="articles"/>
+      <table id="3" parent="1" name="categories"/>
+      <table id="4" parent="1" name="user"/>
+      <column id="5" parent="2" name="id_video">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="6" parent="2" name="categories_id_categorie">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="7" parent="2" name="url_video">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="8" parent="2" name="vignette">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="9" parent="2" name="titre_video">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="10" parent="2" name="desc_video">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10000)</data-type>
+      </column>
+      <column id="11" parent="2" name="categorie_video">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="12" parent="2" name="date_video">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="13" parent="2" name="publier">
+        <mandatory>1</mandatory>
+        <data-type>varchar(11)</data-type>
+      </column>
+      <column id="14" parent="3" name="id_categorie">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="15" parent="3" name="nom_categorie">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="16" parent="4" name="id_user">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="17" parent="4" name="nom">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="18" parent="4" name="prenom">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="19" parent="4" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="20" parent="4" name="motDePasse">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="21" parent="4" name="role">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="22" parent="4" name="avatar">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3365e59d-d47a-4d87-b815-1eb02622ee78" name="mehdyc.simplon-epinal.tk" url="http://mehdyc.simplon-epinal.tk">
+        <fileTransfer host="mehdyc.simplon-epinal.tk" port="21" rootFolder="/Bac" username="mehdyc">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
